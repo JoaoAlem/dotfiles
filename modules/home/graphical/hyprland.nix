@@ -21,7 +21,7 @@ in
 
         # My Programs
         "$terminal" = "kitty";
-        "$fileManager" = "yazi";
+        "$fileManager" = "kitty yazi";
         "$menu" ="wofi --show drun --allow-images --columns 3 --width 900 --height 600 --insensitive";
 
         # Environment Variables
