@@ -4,7 +4,7 @@ with inputs;
 
 nixpkgs.lib.nixosSystem {
   system = "x86_64-linux";
-  specialArgs = { };
+  specialArgs = { inherit inputs globals; };
 
   modules = [
     globals

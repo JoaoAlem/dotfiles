@@ -18,7 +18,6 @@
       gcc
       gdb
       postman
-      clickup
       git-credential-manager
       mysql84
       lsof

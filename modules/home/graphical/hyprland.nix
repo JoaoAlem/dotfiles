@@ -21,7 +21,7 @@ in
 
         # My Programs
         "$terminal" = "kitty";
-        "$fileManager" = "nautilus";
+        "$fileManager" = "yazi";
         "$menu" ="wofi --show drun --allow-images --columns 3 --width 900 --height 600 --insensitive";
 
         # Environment Variables
@@ -244,7 +244,7 @@ in
         # Auto exec commands
         exec-once = [
           # execute Hyprlock on startup
-          "hyprlock"
+          "hyprlock --immediate"
 
           # Cursor
           "hyprctl setcursor HatsuneMiku 16"
