@@ -1,6 +1,6 @@
 { config, lib, pkgs, ... }: {
 
-  imports =[ ./applications ./games ./programming ./graphical ./hardware ./system ];
+  imports =[ ./applications ./games ./programming ./services ./graphical ./hardware ./system ];
 
   options = {
     user = lib.mkOption {

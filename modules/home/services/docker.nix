@@ -10,4 +10,6 @@
     enable = true;
     wantedBy = [ "default.target" ];
   };
+
+  users.users.${config.user}.extraGroups = [ "docker" ];
 }
